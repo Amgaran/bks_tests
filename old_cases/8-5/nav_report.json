@@ -1,0 +1,34 @@
+{
+	"target_statuses": [
+		{
+			"id": "target1",
+			"danger_level": 2
+		},
+		{
+			"id": "target2",
+			"danger_level": 1
+		},
+		{
+			"id": "target4",
+			"danger_level": 1
+		},
+		{
+			"id": "target3",
+			"danger_level": 1
+		},
+		{
+			"id": "target0",
+			"danger_level": 1
+		}
+	],
+	"limitations": [
+		{
+			"id": "96079",
+			"violated": false
+		},
+		{
+			"id": "96079",
+			"violated": false
+		}
+	]
+}

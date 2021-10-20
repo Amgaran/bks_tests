@@ -1,0 +1,112 @@
+[
+	{
+		"items": [
+			{
+				"lat": 56.78578870345754,
+				"lon": 19.317293583601973,
+				"begin_angle": 19.0,
+				"curve": 0.0,
+				"duration": 900.0,
+				"length": 10.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1594730579
+	},
+	{
+		"items": [
+			{
+				"lat": 56.809965274228674,
+				"lon": 19.55472046558635,
+				"begin_angle": 96.0,
+				"curve": 0.0,
+				"duration": 300.0,
+				"length": 1.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			},
+			{
+				"lat": 56.80829853737052,
+				"lon": 19.584736024921654,
+				"begin_angle": 145.0,
+				"curve": 0.0,
+				"duration": 900.0,
+				"length": 3.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			},
+			{
+				"lat": 56.76737457461565,
+				"lon": 19.636827520592657,
+				"begin_angle": 103.0,
+				"curve": 0.0,
+				"duration": 600.0,
+				"length": 2.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			},
+			{
+				"lat": 56.759876467554356,
+				"lon": 19.69587297676323,
+				"begin_angle": 80.0,
+				"curve": 0.0,
+				"duration": 1200.0,
+				"length": 4.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1594730579
+	},
+	{
+		"items": [
+			{
+				"lat": 56.90360150646795,
+				"lon": 19.54223250171481,
+				"begin_angle": 117.0,
+				"curve": 0.0,
+				"duration": 1200.0,
+				"length": 4.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			},
+			{
+				"lat": 56.873286174395105,
+				"lon": 19.650354437692336,
+				"begin_angle": 117.0,
+				"curve": 0.0,
+				"duration": 1200.0,
+				"length": 2.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			},
+			{
+				"lat": 56.85814015966499,
+				"lon": 19.704393545550086,
+				"begin_angle": 117.0,
+				"curve": 0.0,
+				"duration": 600.0,
+				"length": 2.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1594730579
+	},
+	{
+		"items": [
+			{
+				"lat": 56.79597859267567,
+				"lon": 19.882136006773305,
+				"begin_angle": 216.0,
+				"curve": 0.0,
+				"duration": 1800.0,
+				"length": 7.5,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1594730579
+	}
+]

@@ -1,0 +1,15 @@
+{
+	"items": [
+		{
+			"begin_angle": 0.0,
+			"curve": 0,
+			"duration": 14400.0,
+			"lat": 56.68569908606376,
+			"lon": 19.647210082442513,
+			"length": 60.0,
+			"port_dev": 1.5,
+			"starboard_dev": 1.5
+		}
+	],
+	"start_time": 1594732608
+}

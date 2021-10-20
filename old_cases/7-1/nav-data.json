@@ -1,0 +1,14 @@
+{
+	"cat": 3,
+	"lat": 56.6857,
+	"lon": 19.6321,
+	"SOG": 12.0,
+	"STW": 12.0,
+	"COG": 64.0,
+	"heading": 64.0,
+	"width": 16.0,
+	"length": 100.0,
+	"width_offset": 10.0,
+	"length_offset": 15.0,
+	"timestamp": 1594796699
+}

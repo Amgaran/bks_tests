@@ -1,0 +1,77 @@
+[
+	{
+		"items": [
+			{
+				"lat": 56.65052145338741,
+				"lon": 19.383332084044223,
+				"begin_angle": 47.0,
+				"curve": 0.0,
+				"duration": 28800.0,
+				"length": 96.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1595258112
+	},
+	{
+		"items": [
+			{
+				"lat": 56.72061373283776,
+				"lon": 19.49521093796464,
+				"begin_angle": 47.0,
+				"curve": 0.0,
+				"duration": 28800.0,
+				"length": 96.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1595258112
+	},
+	{
+		"items": [
+			{
+				"lat": 56.756854437009444,
+				"lon": 19.550935846340547,
+				"begin_angle": 47.0,
+				"curve": 0.0,
+				"duration": 28800.0,
+				"length": 96.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1595258112
+	},
+	{
+		"items": [
+			{
+				"lat": 56.828055435644046,
+				"lon": 19.57141350333032,
+				"begin_angle": 227.0,
+				"curve": 0.0,
+				"duration": 28800.0,
+				"length": 120.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1595258112
+	},
+	{
+		"items": [
+			{
+				"lat": 56.87689109143232,
+				"lon": 19.633548063017628,
+				"begin_angle": 227.0,
+				"curve": 0.0,
+				"duration": 28800.0,
+				"length": 120.0,
+				"port_dev": 0.0,
+				"starboard_dev": 0.0
+			}
+		],
+		"start_time": 1595258112
+	}
+]

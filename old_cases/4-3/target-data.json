@@ -1,0 +1,46 @@
+[
+	{
+		"id": "target0",
+		"cat": 0,
+		"lat": 56.72146433659153,
+		"lon": 19.903160237550722,
+		"SOG": 12.0,
+		"COG": 195.0,
+		"first_detect_dist": 5.0,
+		"cross_dist": 0,
+		"timestamp": 1594884249
+	},
+	{
+		"id": "target1",
+		"cat": 0,
+		"lat": 56.53777031003326,
+		"lon": 19.836495251116148,
+		"SOG": 6.0,
+		"COG": 40.0,
+		"first_detect_dist": 5.0,
+		"cross_dist": 0,
+		"timestamp": 1594884249
+	},
+	{
+		"id": "target2",
+		"cat": 0,
+		"lat": 56.389870579008736,
+		"lon": 19.989018895641887,
+		"SOG": 9.0,
+		"COG": 13.0,
+		"first_detect_dist": 5.0,
+		"cross_dist": 0,
+		"timestamp": 1594884249
+	},
+	{
+		"id": "target3",
+		"cat": 0,
+		"lat": 56.59764431257959,
+		"lon": 19.641001063157834,
+		"SOG": 15.0,
+		"COG": 128.0,
+		"first_detect_dist": 5.0,
+		"cross_dist": 0,
+		"timestamp": 1594884249
+	}
+]
