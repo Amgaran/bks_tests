@@ -1,0 +1,77 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    0.045570450051561455,
+                    -0.0155852438726735
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "distance": 0.1,
+                "hardness": "hard",
+                "id": "1",
+                "limitation_type": "point_approach_prohibition",
+                "source_id": "1",
+                "source_object_code": "APRSN"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    0.018757229810632565,
+                    -0.03236510855016577
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "distance": 0.1,
+                "hardness": "hard",
+                "id": "2",
+                "limitation_type": "point_approach_prohibition",
+                "source_id": "2",
+                "source_object_code": "APRSN"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    0.03729709603496099,
+                    -0.015441880303218398
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "distance": 0.1,
+                "hardness": "hard",
+                "id": "3",
+                "limitation_type": "point_approach_prohibition",
+                "source_id": "3",
+                "source_object_code": "APRSN"
+            },
+            "type": "Feature"
+        },
+        {
+            "geometry": {
+                "coordinates": [
+                    0.030278795267906576,
+                    -0.028135367227367068
+                ],
+                "type": "Point"
+            },
+            "properties": {
+                "distance": 0.1,
+                "hardness": "hard",
+                "id": "4",
+                "limitation_type": "point_approach_prohibition",
+                "source_id": "4",
+                "source_object_code": "APRSN"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

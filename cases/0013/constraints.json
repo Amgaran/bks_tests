@@ -1,0 +1,38 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -0.010834651795657234,
+                            -0.018075569860616064
+                        ],
+                        [
+                            0.03126571137862903,
+                            -0.03054147874771805
+                        ],
+                        [
+                            0.0015478083654681936,
+                            -0.08071676882544356
+                        ],
+                        [
+                            -0.010834651795657234,
+                            -0.018075569860616064
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "hardness": "hard",
+                "id": "1",
+                "limitation_type": "zone_entering_prohibition",
+                "source_id": "1",
+                "source_object_code": "ENRSN"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}
