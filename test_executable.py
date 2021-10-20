@@ -34,6 +34,8 @@ def test_executable(executable, working_dir='.', extra_arguments=None):
     if extra_arguments is None:
         extra_arguments = []
 
+    from pathlib import Path
+    Path("./reports").mkdir(parents=True, exist_ok=True)
     report_filename = os.path.join('./reports', "report_" + str(datetime.datetime.now()) + ".parquet")
 
     report = test_usv(executable, working_dir, extra_arguments=extra_arguments)
