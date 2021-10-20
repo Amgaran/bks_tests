@@ -1,11 +1,5 @@
-*.png
-*.jpg
-*.jpeg
-*.JPG
-*.py
-*.html
-*.vs
-*/maneuver.json
-*/target-maneuvers.json
-*/nav-report.json
-*.log
+tmp
+*.zip
+*.parquet
+venv
+.idea
