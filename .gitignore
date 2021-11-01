@@ -4,3 +4,4 @@ tmp
 *.parquet
 venv
 .idea
+bugs
