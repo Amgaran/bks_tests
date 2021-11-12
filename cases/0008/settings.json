@@ -10,7 +10,7 @@
         "forward_speed5": 6,
         "maneuver_way": 0,
         "max_circulation_radius": 0.2,
-        "max_course_delta": 90,
+        "max_course_delta": 180,
         "max_route_deviation": 12,
         "maximal_speed": 6,
         "min_circulation_radius": 0.15,
@@ -24,7 +24,7 @@
         "time_advance": 60
     },
     "safety_control": {
-        "cpa": 1,
+        "cpa": 2,
         "last_moment_dist": 1,
         "min_detect_dist": 12,
         "safety_zone": {
