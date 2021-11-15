@@ -24,7 +24,7 @@
         "time_advance": 0
     },
     "safety_control": {
-        "cpa": 1,
+        "cpa": 1.5,
         "last_moment_dist": 1,
         "min_detect_dist": 4,
         "safety_zone": {
