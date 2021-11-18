@@ -1,0 +1,46 @@
+{
+    "features": [
+        {
+            "geometry": {
+                "coordinates": [
+                    [
+                        [
+                            -0.12501205422311917,
+                            0.04401763571173739
+                        ],
+                        [
+                            0.1576853508946247,
+                            -0.059006031878710716
+                        ],
+                        [
+                            0.17015821776791298,
+                            -0.03317065021720463
+                        ],
+                        [
+                            -0.11505739323001124,
+                            0.06384503780471323
+                        ],
+                        [
+                            -0.12501205422311917,
+                            0.04401763571173739
+                        ]
+                    ]
+                ],
+                "type": "Polygon"
+            },
+            "properties": {
+                "hardness": "hard",
+                "id": "1",
+                "limitation_type": "movement_parameters_limitation",
+                "max_course": 295,
+                "max_speed": 60,
+                "min_course": 285,
+                "min_speed": 0,
+                "source_id": "1",
+                "source_object_code": "TSSLPT"
+            },
+            "type": "Feature"
+        }
+    ],
+    "type": "FeatureCollection"
+}

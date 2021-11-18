@@ -1,0 +1,62 @@
+[
+    {
+        "COG": 305.3957622495518,
+        "SOG": 6,
+        "cat": 0,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGT1",
+        "lat": -0.014095088736643082,
+        "length": 100,
+        "length_offset": 0,
+        "lon": 0.02537792432184084,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    },
+    {
+        "COG": 308.62681311413644,
+        "SOG": 5,
+        "cat": 0,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGT2",
+        "lat": 0.0003362386310777556,
+        "length": 100,
+        "length_offset": 0,
+        "lon": 0.019292335010023545,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    },
+    {
+        "COG": 102.6444800104548,
+        "SOG": 6,
+        "cat": 0,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGT3",
+        "lat": 0.06602173677667734,
+        "length": 100,
+        "length_offset": 0,
+        "lon": -0.07419316503820536,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    },
+    {
+        "COG": 27.824886681276222,
+        "SOG": 6,
+        "cat": 0,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGT4",
+        "lat": -0.03846586679561884,
+        "length": 100,
+        "length_offset": 0,
+        "lon": -0.04793231404987229,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    }
+]

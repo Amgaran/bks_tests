@@ -1,0 +1,36 @@
+{
+    "maneuver_calculation": {
+        "breaking_distance": 3,
+        "can_leave_route": true,
+        "forecast_time": 18000,
+        "forward_speed1": 3,
+        "forward_speed2": 9.25,
+        "forward_speed3": 15.5,
+        "forward_speed4": 21.75,
+        "forward_speed5": 28,
+        "maneuver_way": 0,
+        "max_circulation_radius": 1,
+        "max_course_delta": 90,
+        "max_route_deviation": 20,
+        "maximal_speed": 28,
+        "min_circulation_radius": 0.3,
+        "min_diverg_dist": 2,
+        "minimal_speed": 3,
+        "priority": 1,
+        "reverse_speed1": 3,
+        "reverse_speed2": 28,
+        "run_out_distance": 5,
+        "safe_diverg_dist": 1,
+        "time_advance": 60
+    },
+    "safety_control": {
+        "cpa": 1,
+        "last_moment_dist": 1,
+        "min_detect_dist": 4,
+        "safety_zone": {
+            "radius": 0.1,
+            "safety_zone_type": 0
+        },
+        "tcpa": 900
+    }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "COG": 81.17640718168172,
+        "SOG": 8,
+        "cat": 0,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGT1",
+        "lat": 0.025705910650940814,
+        "length": 100,
+        "length_offset": 0,
+        "lon": -0.12962664501818408,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    }
+]

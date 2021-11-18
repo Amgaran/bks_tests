@@ -1,0 +1,32 @@
+[
+    {
+        "COG": 183.87174188407874,
+        "SOG": 10,
+        "cat": 0,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGT1",
+        "lat": 0.1301294371187952,
+        "length": 100,
+        "length_offset": 0,
+        "lon": -0.001347923996026709,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    },
+    {
+        "COG": 299.3306804717529,
+        "SOG": 7,
+        "cat": 0,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGT2",
+        "lat": 0.055216738575186594,
+        "length": 100,
+        "length_offset": 0,
+        "lon": 0.060519182769757575,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    }
+]

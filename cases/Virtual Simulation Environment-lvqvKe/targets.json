@@ -1,0 +1,47 @@
+[
+    {
+        "COG": 126.3323657074612,
+        "SOG": 10,
+        "cat": 1,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGTn3",
+        "lat": 0.0034971414297101425,
+        "length": 100,
+        "length_offset": 0,
+        "lon": -0.02471943758269067,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    },
+    {
+        "COG": 147,
+        "SOG": 10,
+        "cat": 0,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGTn2",
+        "lat": 0.1188764903574366,
+        "length": 100,
+        "length_offset": 0,
+        "lon": -0.02805894068774657,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    },
+    {
+        "COG": 233.5155975961423,
+        "SOG": 10,
+        "cat": 1,
+        "cross_dist": 5,
+        "first_detect_dist": 7,
+        "id": "TGTn1",
+        "lat": 0.04562600861498232,
+        "length": 100,
+        "length_offset": 0,
+        "lon": 0.12091735956777866,
+        "timestamp": 946684800,
+        "width": 20,
+        "width_offset": 0
+    }
+]
