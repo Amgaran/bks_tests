@@ -351,6 +351,7 @@ if __name__ == "__main__":
         df = report_out.get_dataframe()
         if args.print_result:
             if len(df) > 0:
+                pd.set_option('display.max_rows', None)
                 print(df)
         if args.failcode and not df['code'].between(0, 1).all():
             exitcode = 2
