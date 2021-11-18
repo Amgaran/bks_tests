@@ -30,7 +30,7 @@ def upload_results(url, report_filename, title, commit_sha1='', commit_date='', 
     logging.info(f'Response code: {r.status_code}')
 
 
-def test_executable(executable, working_dir='.', extra_arguments=None):
+def test_executable(executable, working_dir='.', extra_arguments=None, n_proc=None):
     if extra_arguments is None:
         extra_arguments = []
 
@@ -38,7 +38,7 @@ def test_executable(executable, working_dir='.', extra_arguments=None):
     Path("./reports").mkdir(parents=True, exist_ok=True)
     report_filename = os.path.join('./reports', "report_" + str(datetime.datetime.now()) + ".parquet")
 
-    report = test_usv(executable, working_dir, extra_arguments=extra_arguments)
+    report = test_usv(executable, working_dir, n_proc=n_proc, extra_arguments=extra_arguments)
     logging.info(f"Start saving report to '{report_filename}'")
     t_save = time.time()
     report.save_file(report_filename)
@@ -57,6 +57,7 @@ if __name__ == "__main__":
     parser.add_argument("--sha1", type=str, help="Commit sha1", required=False, default='')
     parser.add_argument("--datetime", type=str, help="Commit datetime", required=False, default='')
     parser.add_argument("--build", type=str, help="Build number", required=False, default='')
+    parser.add_argument("--j", type=int, help="Processes number", required=False, default=None)
 
     args, extra_args = parser.parse_known_args()
 
@@ -72,7 +73,7 @@ if __name__ == "__main__":
     else:
         work_dir = os.path.abspath(os.getcwd())
 
-    report_file = test_executable(usv_executable, working_dir=work_dir, extra_arguments=extra_args)
+    report_file = test_executable(usv_executable, working_dir=work_dir, n_proc=args.j, extra_arguments=extra_args)
     if len(args.url) > 0:
         logging.info(f'Sending report file: `{report_file}`')
         upload_results(args.url, report_file, title=args.title, commit_sha1=args.sha1, commit_date=args.datetime,

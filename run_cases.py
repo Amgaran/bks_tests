@@ -8,7 +8,7 @@ import subprocess
 import tempfile
 import time
 from datetime import date
-from multiprocessing import Pool
+from multiprocessing import Pool, cpu_count
 from pathlib import Path
 
 import pandas as pd
@@ -70,13 +70,19 @@ def get_target_params(lat, lon, target_data):
 
 
 class ReportGenerator:
-    def __init__(self, executable):
+    def __init__(self, executable, n_proc=None):
         self.exe = executable
         self.cases = []
         self.work_dir = os.path.abspath(os.getcwd())
         self.tmpdir = None
         self.extra_args = []
         self.fast = False
+        if n_proc is None:
+            self.process_number=cpu_count()
+        else:
+            self.process_number=n_proc
+
+
 
     def generate(self, data_directory, extra_arguments=None):
         if extra_arguments is None:
@@ -99,7 +105,7 @@ class ReportGenerator:
         logging.info(f'Converting time: {time.time() - t0}')
         logging.info('Testing in parallel')
         t0 = time.time()
-        with Pool() as p:
+        with Pool(self.process_number) as p:
             cases_awt = p.imap_unordered(self.run_case, df_list)
             cases = list(cases_awt)
         logging.info(f'Testing time: {time.time() - t0}')
@@ -295,11 +301,11 @@ def test_usv_archived(archive, cases_dir):
     return result
 
 
-def test_usv(executable, cases_dir, extra_arguments=None):
+def test_usv(executable, cases_dir, n_proc=None, extra_arguments=None):
     if extra_arguments is None:
         extra_arguments = []
 
-    report_generator = ReportGenerator(executable)
+    report_generator = ReportGenerator(executable, n_proc=n_proc)
 
     return report_generator.generate(cases_dir, extra_arguments=extra_arguments)
 
