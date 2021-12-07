@@ -355,6 +355,7 @@ if __name__ == "__main__":
     exitcode = 0
     if args.print_result or args.failcode:
         df = report_out.get_dataframe()
+        df = df.set_index('datadir').sort_index()
         if args.print_result:
             if len(df) > 0:
                 pd.set_option('display.max_rows', None)
