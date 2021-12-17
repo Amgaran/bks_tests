@@ -29,7 +29,7 @@
                 "type": "Polygon"
             },
             "properties": {
-                "hardness": "hard",
+                "hardness": "soft",
                 "id": "1",
                 "limitation_type": "movement_parameters_limitation",
                 "max_course": 307,
