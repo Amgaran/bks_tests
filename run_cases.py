@@ -78,11 +78,9 @@ class ReportGenerator:
         self.extra_args = []
         self.fast = False
         if n_proc is None:
-            self.process_number=cpu_count()
+            self.process_number = cpu_count()
         else:
-            self.process_number=n_proc
-
-
+            self.process_number = n_proc
 
     def generate(self, data_directory, extra_arguments=None):
         if extra_arguments is None:
@@ -180,12 +178,18 @@ class ReportGenerator:
                 nav_report = json.dumps(json.loads(f.read()), indent=4, sort_keys=True)
         except FileNotFoundError:
             pass
+        except json.decoder.JSONDecodeError:
+            code = 101
+            print('JSONDecodeError analyse_file')
 
         try:
             with open(case_filenames['targets_data'], "r") as f:
                 target_data = json.dumps(json.loads(f.read()), indent=4, sort_keys=True)
         except FileNotFoundError:
             pass
+        except json.decoder.JSONDecodeError:
+            code = 101
+            print('JSONDecodeError targets_data')
 
         lat, lon = 0, 0
         try:
@@ -194,6 +198,9 @@ class ReportGenerator:
                 lat, lon = nav_d['lat'], nav_d['lon']
         except FileNotFoundError:
             pass
+        except json.decoder.JSONDecodeError:
+            code = 101
+            print('JSONDecodeError on nav_data')
 
         dist1, course1, peleng1 = 0, 0, 0
         dist2, course2, peleng2 = 0, 0, 0
@@ -212,8 +219,13 @@ class ReportGenerator:
                 dist2, course2, peleng2 = get_target_params(lat, lon, target_data[1])
             except IndexError or TypeError:
                 pass
+        types, right = [], None
+        try:
+            types, right = load_maneuver(maneuver_file, analyse_file)
+        except json.decoder.JSONDecodeError:
+            code = 101
+            print('JSONDecodeError load_maneuver')
 
-        types, right = load_maneuver(maneuver_file, analyse_file)
         if len(types) == 0:
             types.append(None)
         if len(types) == 1:
